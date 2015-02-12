@@ -1,0 +1,7 @@
+scss-files: 'assets/stylesheets/**/*.scss'
+
+exclude: 'assets/stylesheets/reset.scss'
+
+linters:
+  HexLength:
+    style: :long
