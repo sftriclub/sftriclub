@@ -7,12 +7,12 @@ These are a few steps that you need perform only once.
 #### git
 The first thing you will need to do is [download and install git](http://git-scm.com/downloads) on your system. Then from a terminal, clone the sftriclub repository
 ```
-git clone git@github.com:sftriclub/sftriclub.git
+git clone git@github.com:sftriclub/workbench.git
 ```
-This will create a repository on your drive in a folder called `sftriclub`. The rest of the setup steps shoule be done from the top-level of this repository.
+This will create a repository on your drive in a folder called `workbench`. The rest of the setup steps shoule be done from the top-level of this repository.
 
 #### bundler
-From within the top-level directory of the `sftriclub` repository
+From within the top-level directory of the `workbench` repository
 ```
 gem install bundler
 ```
