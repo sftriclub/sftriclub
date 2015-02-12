@@ -1,2 +1,3 @@
-Welcome to the SF Tri Wild Apricot Project
+#### Wild Apricot
 
+Welcome to the SF Tri Wild Apricot Project
