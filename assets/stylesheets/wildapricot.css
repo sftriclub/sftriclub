@@ -30,6 +30,13 @@ hr { display: block; height: 1px; border: 0; border-top: 1px solid #cccccc; marg
 
 input, select { vertical-align: middle; }
 
+.quote { transform: translateZ(0); }
+.quote blockquote { background-color: #ffffff; box-shadow: -5px -4px 25px rgba(0, 0, 0, 0.3); font-size: 1.5em; padding: 1.5em; }
+.quote blockquote cite { bottom: -2em; left: 7em; position: absolute; }
+.quote blockquote cite:before { content: '\2014 \2009'; }
+.quote blockquote:before { color: #cccccc; content: open-quote; font-size: 6em; left: 0; line-height: .1em; margin-right: .25em; position: absolute; top: .2em; vertical-align: -.4em; }
+.quote .thumb { background: url("/resources/Pictures/officersandboards/adam.png") no-repeat center center; background-size: 100% 100%; border: 5px solid #ffffff; border-radius: 50%; bottom: -4em; box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.5), 0 2px 3px rgba(0, 0, 0, 0.6); height: 100px; left: -1em; position: absolute; width: 100px; }
+
 meta.foundation-version { font-family: "/5.4.7/"; }
 
 meta.foundation-mq-small { font-family: "/only screen/"; width: 0em; }
@@ -241,9 +248,3 @@ blockquote, blockquote p { line-height: 1.6; color: #6f6f6f; }
   .print-only { display: block !important; }
   .hide-for-print { display: none !important; }
   .show-for-print { display: inherit !important; } }
-.quote { transform: translateZ(0); }
-.quote blockquote { background-color: #ffffff; box-shadow: -5px -4px 25px rgba(0, 0, 0, 0.3); font-size: 1.5em; padding: 1.5em; }
-.quote blockquote cite { bottom: -2em; left: 7em; position: absolute; }
-.quote blockquote cite:before { content: '\2014 \2009'; }
-.quote blockquote:before { color: #cccccc; content: open-quote; font-size: 6em; left: 0; line-height: .1em; margin-right: .25em; position: absolute; top: .2em; vertical-align: -.4em; }
-.quote .thumb { background: url("/resources/Pictures/officersandboards/adam.png") no-repeat center center; background-size: 100% 100%; border: 5px solid #ffffff; border-radius: 50%; bottom: -4em; box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.5), 0 2px 3px rgba(0, 0, 0, 0.6); height: 100px; left: -1em; position: absolute; width: 100px; }
