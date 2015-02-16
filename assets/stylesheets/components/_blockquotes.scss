@@ -1,7 +1,8 @@
 
 .quote { 
+  margin: 3em 2em 5em;
   transform: translateZ(0);
-  
+    
   blockquote {
     background-color: #ffffff;
     box-shadow: -5px -4px 25px rgba(0, 0, 0, .3);
@@ -10,7 +11,7 @@
 
     cite {
       bottom: -2em;
-      left: 7em;
+      left: 4em;
       position: absolute;         
     }
 
@@ -23,7 +24,7 @@
     color: #cccccc;
     content: open-quote;
     font-size: 6em;
-    left: 0;
+    left: .25em;
     line-height: .1em;
     margin-right: .25em;
     position: absolute;  
@@ -32,8 +33,6 @@
   }
 
   .thumb {
-    background: url('/resources/Pictures/officersandboards/adam.png') no-repeat center center;
-    background-size: 100% 100%;
     border: 5px solid #ffffff;
     border-radius: 50%;
     bottom: -4em;
@@ -42,6 +41,11 @@
     left: -1em;
     position: absolute;
     width: 100px;
+  }
+
+  .adam-smith {
+    background: url('/resources/Pictures/officersandboards/adam.png') no-repeat center center;
+    background-size: 100% 100%;
   }
 }
 
